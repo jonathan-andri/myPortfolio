@@ -57,10 +57,9 @@ export function Navbar() {
   }
 
   return (
-    <header className="block top-0 min-w-screen h-fit z-50 bg-background/80 backdrop-blur border-b">
+    <header className="block relative top-0 min-w-screen h-fit z-50 bg-background/80 backdrop-blur border-b">
       <nav className="z-40 fixed w-full flex flex-row justify-between items-center p-6">
         <Logo />
-        
         {/* Burger menu */}
         <button 
           className="relative z-50 flex flex-col gap-1.5 cursor-pointer"
